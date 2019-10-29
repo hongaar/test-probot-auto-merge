@@ -38,6 +38,17 @@ deleteBranchAfterMerge: true
 # For more information see https://help.github.com/articles/about-pull-request-merges/
 mergeMethod: merge
 
+mergeCommitMessage: |
+  {title} (#{number})
+
+  {body}
+  
+  {commits}
+  
+  Merged from {branch}
+  
+  Have a good day! 👋
+
 # Blocking labels are the labels that can be attached to a pull request to make sure the pull request
 # is not being automatically merged.
 blockingLabels:
